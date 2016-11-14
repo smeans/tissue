@@ -1,12 +1,15 @@
 {
   "name": "tissue",
-  "repository" : {
-    "type" : "git"
-  , "url" : "https://github.com/smeans/tissue"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smeans/tissue"
   },
   "version": "1.0.0",
   "description": "A completely file-based issue tracking system for use with version control systems like git.",
-  "main": "tissue.js",
+  "preferGlobal": "true",
+  "directories": {
+    "bin": "./bin"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +20,8 @@
     "file"
   ],
   "author": "Scott Means",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
 }
