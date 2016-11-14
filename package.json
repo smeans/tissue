@@ -1,5 +1,9 @@
 {
   "name": "tissue",
+  "repository" : {
+    "type" : "git"
+  , "url" : "https://github.com/smeans/tissue"
+  },
   "version": "1.0.0",
   "description": "A completely file-based issue tracking system for use with version control systems like git.",
   "main": "tissue.js",
