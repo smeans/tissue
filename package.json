@@ -1,0 +1,17 @@
+{
+  "name": "tissue",
+  "version": "1.0.0",
+  "description": "A completely file-based issue tracking system for use with version control systems like git.",
+  "main": "tissue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "issue",
+    "tracking",
+    "file"
+  ],
+  "author": "Scott Means",
+  "license": "MIT"
+}
