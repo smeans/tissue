@@ -22,6 +22,9 @@
   "author": "Scott Means",
   "license": "MIT",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "body": "^5.1.0",
+    "cachemere": "^0.9.13",
+    "minimist": "^1.2.0",
+    "querystring": "^0.2.0"
   }
 }
