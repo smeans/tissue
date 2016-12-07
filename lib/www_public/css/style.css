@@ -55,9 +55,11 @@ header {
   font-family: monospace;
 }
 
-section.content {
+div.content {
   margin: 0;
   padding: 0;
+
+  height: 80%;
 }
 
 section.issue_list_section {
