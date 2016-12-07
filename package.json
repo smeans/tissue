@@ -25,6 +25,7 @@
     "body": "^5.1.0",
     "cachemere": "^0.9.13",
     "minimist": "^1.2.0",
+    "openurl": "^1.1.1",
     "querystring": "^0.2.0"
   }
 }
