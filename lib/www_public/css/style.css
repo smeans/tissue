@@ -47,6 +47,9 @@ button {
 
 header {
   margin: .1em;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .issue_id {
@@ -59,7 +62,13 @@ div.content {
   margin: 0;
   padding: 0;
 
+  width: 100%;
   height: 80%;
+  display: flex;
+}
+
+div.content>* {
+  flex: 1;
 }
 
 section.issue_list_section {
