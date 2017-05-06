@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -46,6 +50,7 @@ button {
 }
 
 header {
+  flex: 0 auto;
   margin: .1em;
 
   display: flex;
@@ -59,11 +64,11 @@ header {
 }
 
 div.content {
+  flex: 1 auto;
   margin: 0;
   padding: 0;
 
   width: 100%;
-  height: 80%;
   display: flex;
 }
 
@@ -73,7 +78,6 @@ div.content>* {
 
 section.issue_list_section {
   margin: 0 .1em;
-  height: 50%;
 
   background-color: #3F7CAC;
 
@@ -83,14 +87,18 @@ section.issue_list_section {
   border-radius: .5em .5em 0 0;
 
   overflow: hidden;
+
+  display:flex;
+  flex-direction: column;
 }
 
 div.issue_list_inner {
+  flex: 1 auto;
+
   margin: 0;
   padding: 0;
 
   width: 100%;
-  height: 100%;
   border-radius: .5em;
   background-color: #fff;
 
@@ -155,6 +163,7 @@ section.issue_detail {
 }
 
 footer {
+  flex: 0 auto;
   margin: .1em;
   color: #888;
   font-size: 80%;
@@ -166,4 +175,26 @@ footer {
 
   background-color: #3F7CAC;
   color: #fff;
+}
+
+.tag_cloud {
+  border-radius: .5em;
+  padding: 0 .25em;
+  margin: .25em;
+
+  background-color: #fff;
+  display: flex;
+}
+
+.tag_cloud>div {
+  font-size: 120%;
+  border-radius: .5em;
+  margin: .25em;
+  padding: 0 .5em .25em .5em;
+  background-color: #3F7CAC;
+  color: #fff;
+}
+
+.tag_cloud>div.selected {
+  background-color: #34E4EA;
 }
