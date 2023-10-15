@@ -35,13 +35,16 @@
         <fieldset>
           <p>
             <input name="issue_id" type="hidden"/>
-            <span><span class="issue_id">(new)</span>:</span><input name="title" type="text" placeholder="title" required/>
+            <span><span class="issue_id">(new)</span>-</span><input name="title" type="text" placeholder="title" required/>
           </p>
           <p>
             <textarea name="description" placeholder="Enter a brief description of the issue, along with steps to reproduce" required></textarea>
           </p>
           <p>
-            <button type="submit">create new issue</button>
+            <button id="saveButton" type="submit">create new issue</button>
+          </p>
+          <p>
+            <button id="archiveButton" type="button">archive issue</button>
           </p>
         </fieldset>
       </form>
