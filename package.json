@@ -6,7 +6,8 @@
   },
   "version": "1.0.0",
   "description": "A completely file-based issue tracking system for use with version control systems like git.",
-  "preferGlobal": "true",
+  "preferGlobal": true,
+  "bin": "./lib/tissue.js",
   "directories": {
     "bin": "./bin"
   },

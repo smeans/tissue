@@ -7,9 +7,12 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
+}
 
-  display: flex;
-  flex-direction: column;
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow: hidden;
 }
 
 html, body, input, textarea, p {
@@ -69,7 +72,9 @@ div.content {
   padding: 0;
 
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  overflow: hidden;
 }
 
 div.content>* {
@@ -158,6 +163,7 @@ div.issue_list {
 
 section.issue_detail {
   height: 100%;
+  min-width: 25em;
   margin: 0 .1em;
   background-color: #34E4EA;
   border-radius: 0 0 .5em .5em;
@@ -209,6 +215,8 @@ footer {
   padding: 0 .5em .25em .5em;
   background-color: #3F7CAC;
   color: #fff;
+
+  user-select: none;
 }
 
 .tag_cloud>div.selected {
