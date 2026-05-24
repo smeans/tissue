@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/smeans/tissue"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A completely file-based issue tracking system for use with version control systems like git.",
   "preferGlobal": true,
   "bin": {
