@@ -14,7 +14,7 @@
     "bin": "./bin"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/regression.js"
   },
   "keywords": [
     "git",
@@ -25,11 +25,8 @@
   "author": "Scott Means",
   "license": "MIT",
   "dependencies": {
-    "body": "^5.1.0",
-    "cachemere": "^0.9.13",
     "minimist": "^1.2.0",
     "openurl": "^1.1.1",
-    "querystring": "^0.2.0",
     "string-template": "^1.0.0"
   }
 }
