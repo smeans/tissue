@@ -8,7 +8,7 @@
   "description": "A completely file-based issue tracking system for use with version control systems like git.",
   "preferGlobal": true,
   "bin": {
-    "tissue": "./lib/tissue.js"
+    "tissue": "./bin/tissue"
   },
   "directories": {
     "bin": "./bin"
