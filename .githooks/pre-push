@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# pre-push hook for Linux/macOS/Bash
+# Run npm test before allowing a push.
+cd "$(dirname "$0")/.." || exit 1
+npm test
+if [ $? -ne 0 ]; then
+  echo
+  echo "npm test failed. Push aborted."
+  exit 1
+fi
+exit 0
